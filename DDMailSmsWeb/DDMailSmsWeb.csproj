@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC09595C-45FB-4E99-B26A-EC382ADFF297}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DDMailSmsWeb</RootNamespace>
+    <AssemblyName>DDMailSmsWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.5.7.1213, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin, Version=4.97.4951.28478, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenPop">
+      <HintPath>..\..\..\..\..\..\DDMain\DDMailSms\DDMailSmsWeb\bin\OpenPop.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Web.Spreadsheet">
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Web.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2016.1.106.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Fixed, Version=2016.1.106.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Fixed.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2016.1.106.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow.FormatProviders.Pdf, Version=2016.1.106.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2016.1.106.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2016.1.106.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf, Version=2016.1.106.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2016.1.106.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Windows.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip.Extensions, Version=2016.1.106.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\RCAJAX\2016.1.225.45\AdditionalLibraries\Bin45\Telerik.Windows.Zip.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Twilio.Api, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Users\microware\Desktop\DDMail\DDMail\bin\Debug\Twilio.Api.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\DDMailSmsWeb.dll" />
+    <Content Include="bin\DDMailSmsWeb.pdb" />
+    <Content Include="bin\OpenPop.dll" />
+    <Content Include="bin\RestSharp.dll" />
+    <Content Include="bin\RestSharp.xml" />
+    <Content Include="bin\Telerik.Web.Spreadsheet.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Core.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Fixed.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Flow.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Spreadsheet.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll" />
+    <Content Include="bin\Telerik.Windows.Zip.dll" />
+    <Content Include="bin\Telerik.Windows.Zip.Extensions.dll" />
+    <Content Include="Content\clientlogo\logo.png" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\img\1465300468_bullet_toggle_plus.ico" />
+    <Content Include="Content\img\ach.png" />
+    <Content Include="Content\img\ae.png" />
+    <Content Include="Content\img\ameex.png" />
+    <Content Include="Content\img\DDlogo_FullColor.png" />
+    <Content Include="Content\img\dis.png" />
+    <Content Include="Content\img\incomingSMS.png" />
+    <Content Include="Content\img\mas.png" />
+    <Content Include="Content\img\outgoingSMS.png" />
+    <Content Include="Content\img\payment.png" />
+    <Content Include="Content\img\splash-loader.gif" />
+    <Content Include="Content\img\thank-you.png" />
+    <Content Include="Content\img\toggleOFF.png" />
+    <Content Include="Content\img\toggleON.png" />
+    <Content Include="Content\img\visa.png" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\jquery.min.js" />
+    <Content Include="Content\js\npm.js" />
+    <Content Include="Content\pop\bootstrap.min.css" />
+    <Content Include="Content\pop\bootstrap.min.js" />
+    <Content Include="Content\pop\jquery.min.js" />
+    <Content Include="Error.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="frmaddrole.aspx" />
+    <Content Include="frmCampusLogoMaster.aspx" />
+    <Content Include="frmCampusMaster.aspx" />
+    <Content Include="frmemailconfiguration.aspx" />
+    <Content Include="frmlogin.aspx" />
+    <Content Include="frmManageUser.aspx" />
+    <Content Include="frmSMSconfiguration.aspx" />
+    <Content Include="frmSwitchCampus.aspx" />
+    <Content Include="frmUserRights.aspx" />
+    <Content Include="images\exit.png" />
+    <Content Include="images\Login-icon.png" />
+    <Content Include="images\settings.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\composesms.png" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\eHtml.png" />
+    <Content Include="images\email_compose.png" />
+    <Content Include="images\inbox.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\pencil_edit_button.png" />
+    <Content Include="images\reply_arrow.png" />
+    <Content Include="images\sentemail.png" />
+    <Content Include="images\SMSSent.jpg" />
+    <Content Include="images\SMS_compose.png" />
+    <Content Include="images\unread.png" />
+    <Content Include="images\view.png" />
+    <Content Include="launcher.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="obj\Debug\DDMailSmsWeb.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\DDMailSmsWeb.dll" />
+    <Content Include="obj\Debug\ddmailsmsweb.dll.licenses" />
+    <Content Include="obj\Debug\DDMailSmsWeb.pdb" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\iscroll.min.js" />
+    <Content Include="scripts\jquery.min.js" />
+    <Content Include="scripts\LeadSearchPoPUp.js" />
+    <Content Include="scripts\popupwindow.js" />
+    <Content Include="scripts\StudentSearchPoPUp.js" />
+    <Content Include="SentAttachment\example0802201650907PM.html" />
+    <Content Include="smsreply.aspx" />
+    <Content Include="StudentLeadSelection.asmx" />
+    <Content Include="styles\LeadSearchPoPUp.css" />
+    <Content Include="styles\DDResposive.css" />
+    <Content Include="styles\login\style.css" />
+    <Content Include="styles\Slidecss\drawer.css" />
+    <Content Include="styles\Slidecss\drawer.min.css" />
+    <Content Include="styles\Slidejs\drawer.js" />
+    <Content Include="styles\Slidejs\drawer.min.js" />
+    <Content Include="styles\StudentSearchPoPUp.css" />
+    <Content Include="styles\tab.css" />
+    <Content Include="frmstudentleadcomposesms.aspx" />
+    <Content Include="frmstudentleadcomposeemaill.aspx" />
+    <Content Include="frmsmsaddtemplate.aspx" />
+    <Content Include="frmemailaddtemplate.aspx" />
+    <Content Include="frmdepartmentcomposesms.aspx" />
+    <Content Include="frmdepartmentcomposeemail.aspx" />
+    <Content Include="frmdepartment.aspx" />
+    <Content Include="frmstudentlead.aspx" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\Thumbnails\Chrysanthemum.jpg" />
+    <Content Include="images\Thumbnails\Desert.jpg" />
+    <Content Include="images\Thumbnails\Hydrangeas.jpg" />
+    <Content Include="images\Thumbnails\Jellyfish.jpg" />
+    <Content Include="images\Thumbnails\Koala.jpg" />
+    <Content Include="images\Thumbnails\Lighthouse.jpg" />
+    <Content Include="images\Thumbnails\Penguins.jpg" />
+    <Content Include="images\Thumbnails\Tulips.jpg" />
+    <Content Include="scripts\scripts.js" />
+    <Content Include="styles\base.css" />
+    <Content Include="styles\custom.css" />
+    <Content Include="styles\default.css" />
+    <Content Include="styles\grid.css" />
+    <Content Include="styles\listView.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\DataLogicLayer.cs" />
+    <Compile Include="Classes\sendmail.cs" />
+    <Compile Include="Classes\Source.cs" />
+    <Compile Include="DataAccess\DataAccessManager.cs" />
+    <Compile Include="DynamicAccess\DyDataAccessManager.cs" />
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmaddrole.aspx.cs">
+      <DependentUpon>frmaddrole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmaddrole.aspx.designer.cs">
+      <DependentUpon>frmaddrole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCampusLogoMaster.aspx.cs">
+      <DependentUpon>frmCampusLogoMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCampusLogoMaster.aspx.designer.cs">
+      <DependentUpon>frmCampusLogoMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCampusMaster.aspx.cs">
+      <DependentUpon>frmCampusMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCampusMaster.aspx.designer.cs">
+      <DependentUpon>frmCampusMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmemailconfiguration.aspx.cs">
+      <DependentUpon>frmemailconfiguration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmemailconfiguration.aspx.designer.cs">
+      <DependentUpon>frmemailconfiguration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.aspx.cs">
+      <DependentUpon>frmlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmlogin.aspx.designer.cs">
+      <DependentUpon>frmlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageUser.aspx.cs">
+      <DependentUpon>frmManageUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmManageUser.aspx.designer.cs">
+      <DependentUpon>frmManageUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSconfiguration.aspx.cs">
+      <DependentUpon>frmSMSconfiguration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmSMSconfiguration.aspx.designer.cs">
+      <DependentUpon>frmSMSconfiguration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSwitchCampus.aspx.cs">
+      <DependentUpon>frmSwitchCampus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmSwitchCampus.aspx.designer.cs">
+      <DependentUpon>frmSwitchCampus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserRights.aspx.cs">
+      <DependentUpon>frmUserRights.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmUserRights.aspx.designer.cs">
+      <DependentUpon>frmUserRights.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="launcher.aspx.cs">
+      <DependentUpon>launcher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="launcher.aspx.designer.cs">
+      <DependentUpon>launcher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainDDMailSMSMaster.Master.cs">
+      <DependentUpon>MainDDMailSMSMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainDDMailSMSMaster.Master.designer.cs">
+      <DependentUpon>MainDDMailSMSMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="smsreply.aspx.cs">
+      <DependentUpon>smsreply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smsreply.aspx.designer.cs">
+      <DependentUpon>smsreply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmstudentleadcomposesms.aspx.cs">
+      <DependentUpon>frmstudentleadcomposesms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmstudentleadcomposesms.aspx.designer.cs">
+      <DependentUpon>frmstudentleadcomposesms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmstudentleadcomposeemaill.aspx.cs">
+      <DependentUpon>frmstudentleadcomposeemaill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmstudentleadcomposeemaill.aspx.designer.cs">
+      <DependentUpon>frmstudentleadcomposeemaill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmsmsaddtemplate.aspx.cs">
+      <DependentUpon>frmsmsaddtemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmsmsaddtemplate.aspx.designer.cs">
+      <DependentUpon>frmsmsaddtemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmemailaddtemplate.aspx.cs">
+      <DependentUpon>frmemailaddtemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmemailaddtemplate.aspx.designer.cs">
+      <DependentUpon>frmemailaddtemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmdepartmentcomposesms.aspx.cs">
+      <DependentUpon>frmdepartmentcomposesms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmdepartmentcomposesms.aspx.designer.cs">
+      <DependentUpon>frmdepartmentcomposesms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmdepartmentcomposeemail.aspx.cs">
+      <DependentUpon>frmdepartmentcomposeemail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmdepartmentcomposeemail.aspx.designer.cs">
+      <DependentUpon>frmdepartmentcomposeemail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmdepartment.aspx.cs">
+      <DependentUpon>frmdepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmdepartment.aspx.designer.cs">
+      <DependentUpon>frmdepartment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmstudentlead.aspx.cs">
+      <DependentUpon>frmstudentlead.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmstudentlead.aspx.designer.cs">
+      <DependentUpon>frmstudentlead.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentLeadSelection.asmx.cs">
+      <DependentUpon>StudentLeadSelection.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="bin\DDMailSmsWeb.dll.config" />
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\css\bootstrap.min.css.map" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="MainDDMailSMSMaster.Master" />
+    <Content Include="styles\login\Content.css" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_Themes\" />
+    <Folder Include="InboxAttachment\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Upload\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49573</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3384/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

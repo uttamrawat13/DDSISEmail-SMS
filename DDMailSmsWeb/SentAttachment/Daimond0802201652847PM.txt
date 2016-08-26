@@ -1,0 +1,32 @@
+Backend: MS SQL 
+Web Services
+
+copy the system on site
+
+ODBC connection
+M S SQL Report
+Access
+
+Payment gatway
+
+we will provide ftp to client > today itself
+
+hostname: daimondd.microwarecomp.com
+username: DaimondSIS
+password: Dd@123456
+
+
+
+
+admin
+Admin@123
+
+
+http://vikku.info/programming/payment-gateway/paypal-direct-payment-integration-NVP-made-easy.htm
+
+
+what was the first color of your car: red
+what was first employer name: Microware
+what was the last five disgit your social security no: 98765
+
+new password: Dsis@123

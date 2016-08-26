@@ -1,0 +1,356 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"  CodeBehind="MainDDMailSMSMaster.master.cs" Inherits="DDMailSmsWeb.MainDDMailSMSMaster" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Diamond SIS Email-SMS Solution</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+      
+    <link href="styles/DDResposive.css" rel="stylesheet" />
+    <script src="scripts/iscroll.min.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="styles/Slidejs/drawer.min.js" charset="utf-8"></script>
+    <link href="styles/Slidecss/drawer.min.css" rel="stylesheet"/>
+   <link href="Content/pop/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/StudentSearchPoPUp.css" rel="stylesheet" />
+   <link href="styles/LeadSearchPoPUp.css" rel="stylesheet" />
+    <style>
+         .RadMenu_Office2010Silver a.rmLink {
+   
+    font: 12px/35px "Segoe UI",Arial,sans-serif !important;
+
+}
+      .RadMenu_Office2010Silver .rmRootGroup, .RadMenu_Office2010Silver a.rmLink, .RadMenu_Office2010Silver .rmText, .RadMenu_Office2010Silver .rmLeftArrow, .RadMenu_Office2010Silver .rmRightArrow, .RadMenu_Office2010Silver .rmTopArrow, .RadMenu_Office2010Silver .rmBottomArrow {
+    background-color: transparent;
+    background-image: none !important;
+}
+
+    </style>
+    <script type ="text/javascript">
+            window.onload = window.history.forward(0);  //calling function on window onload
+    </script>
+   
+        <script type="text/javascript">
+            function pageLoad(sender, args) {
+                $(document).ready(function () {
+                    $('.drawer').drawer();
+                });
+            };
+
+    </script>
+       <script type="text/javascript">
+           function OnClientSelectedIndexChangedCB(sender, eventArgs) {
+               
+               var item = eventArgs.get_item();
+              
+               
+               var ddlfrom = item.get_text().includes("Lcol");
+             
+               if (ddlfrom=== true)
+               {
+                  
+                   var splitdata = item.get_text().split("<ul style='z-index:100'><li class='Lcol1'>");
+                   var finalres = splitdata[1].split("<li");
+                   var POSCode = finalres[0].replace("</li>", "");
+                
+                   sender.set_text(POSCode);
+                   console.log(item.get_value());
+                   sender.set_value(item.get_value());
+               }
+               if ( ddlfrom === false)
+               { 
+                   var splitdata1 = item.get_text().split("<ul style='z-index:100'><li class='col1'>");
+                   var finalres1 = splitdata1[1].split("<li");
+                   var POSCode1 = finalres1[0].replace("</li>", "");
+                 
+                   sender.set_text(POSCode1);
+                   console.log(item.get_value());
+                   sender.set_value(item.get_value());
+               }
+           
+           }
+        </script>
+    <asp:ContentPlaceHolder ID="CPhead" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+ 
+        
+  <cc1:ToolkitScriptManager ID="scrmanager1" runat="server"></cc1:ToolkitScriptManager>
+  
+  <telerik:RadAjaxLoadingPanel ID="RALPSwitchtoanthoruser" runat="server"
+        IsSticky="true" Style="position:fixed; top: 0; left: 0; width: 100%; height: 100%;
+        z-index: 1000005;" ZIndex="1000005">
+    </telerik:RadAjaxLoadingPanel>
+
+  
+  <telerik:RadAjaxManager ID="RAMSTDLEADInboxf" runat="server"  >
+       <AjaxSettings>            
+             <telerik:AjaxSetting AjaxControlID="PMasterMainHeader" >
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="PMasterMainHeader" LoadingPanelID="RALPSwitchtoanthoruser" ></telerik:AjaxUpdatedControl>
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+           
+            
+       </AjaxSettings>
+    </telerik:RadAjaxManager>
+   <asp:Panel ID="PMasterMainHeader" runat="server">
+    
+
+
+        <telerik:RadPageLayout runat="server" ID="RPLayoutHeader"  GridType="Fluid">
+            <Rows>
+                 <telerik:LayoutRow>
+                  <Content>
+                     <telerik:LayoutColumn Span="2" SpanXs="12" SpanSm="2" runat="server" >
+                        <% if (Session["Campuslogo"]!=null)
+                           { 
+                                %>
+                             <asp:Image ID="imgCampusLogo" runat="server" Width="180px" Height="80px" style="padding: 12px;" />
+
+                         <% } %>
+                         
+                      
+                     </telerik:LayoutColumn>
+                     <telerik:LayoutColumn ID="LayoutColumn1" Span="6"  SpanXs="12" SpanSm="6" runat="server" >
+                         <div style="text-align:center">
+                              <telerik:RadButton ID="RbtnRefreshApplication" runat="server"  Height="23px" Style="margin-top:2px"
+                            Text="Refresh application" Icon-PrimaryIconCssClass="rbRefresh"  AutoPostBack="true"  OnClick="RbtnRefreshApplication_Click">
+                        </telerik:RadButton>
+                             <br/>
+                         <telerik:RadButton ID="RBSelectStudent" runat="server" ToggleType="Radio" ButtonType="ToggleButton"
+                            Text="Student" GroupName="StandardButton" AutoPostBack="true" Checked="true" OnClick="RBSelectStudent_Click">
+                        </telerik:RadButton> 
+                        <telerik:RadButton ID="RBSelectLead" runat="server" ToggleType="Radio"  Checked="false"
+                            Text="Lead" GroupName="StandardButton" ButtonType="ToggleButton" AutoPostBack="true" OnClick="RBSelectLead_Click">
+                        </telerik:RadButton>
+                                         <br /> 
+                            <telerik:RadComboBox RenderMode="Lightweight" runat="server" ID="RCBStudentsLeadSearch" Height="300px" Width="280px" 
+                              ZIndex="10000000" ItemsPerRequest="10" AutoPostBack="true" OnSelectedIndexChanged="RCBStudentsLeadSearch_SelectedIndexChanged"
+                            EnableLoadOnDemand  ="true" ShowMoreResultsBox="true"  OnClientSelectedIndexChanged="OnClientSelectedIndexChangedCB" 
+                            EnableVirtualScrolling="true" AllowCustomText="True" AppendDataBoundItems="True" Filter="Contains" ValidateRequest="false" >
+                            <WebServiceSettings Path="~/StudentLeadSelection.asmx"  />
+                            </telerik:RadComboBox>
+                             
+               <asp:HiddenField ID="hdselectedstudentlead" runat="server"></asp:HiddenField>
+                              </div>
+                      </telerik:LayoutColumn>
+                      <telerik:LayoutColumn Span="4"  SpanXs="12" SpanSm="4" runat="server" >
+                              <div  class="leftHeader additionalColumn">
+                                          <asp:Label ID="Label1"  CssClass="additionalColumn" Font-Bold="true" Text="You are in page:-" runat="server"></asp:Label>
+                                        <asp:Label ID="lbpagename" Font-Size="14px" runat="server"></asp:Label>
+                                       
+                             
+                                  <asp:Label ID="LBDepartment" Visible="false" runat="server"></asp:Label><br/>  
+                                   <asp:Label ID="LBselectstudentLead"  runat="server"></asp:Label><br/>  
+                                   <asp:Label ID="LBloginuser"  runat="server"></asp:Label><br/>
+                                  <span><b>Department:</b></span>      
+                                   <telerik:RadDropDownList RenderMode="Lightweight" ID="RddlDept"     runat="server" Font-Size="12px" DropDownHeight="200px"
+                                    AutoPostBack="true" OnSelectedIndexChanged="RddlDept_SelectedIndexChanged" Style="margin-bottom:2px" >
+                                  </telerik:RadDropDownList>          
+                          </div>
+                           
+                      
+                      </telerik:LayoutColumn>
+                   </Content>
+                 </telerik:LayoutRow>
+             </Rows>
+         </telerik:RadPageLayout>
+
+        <telerik:radpagelayout id="RPLayoutMenu" runat="server" style="z-index:1"  gridtype="Fluid">
+            <Rows>
+                <telerik:LayoutRow>
+                    <Content>
+                      <telerik:radpagelayout id="RPLayoutMainMenu" runat="server" gridtype="Fluid">
+                       <Rows>
+                         <telerik:LayoutRow >
+                                   <Content>
+                                     <telerik:RadMenu ID="RMenuMain"  OnItemClick="RMenuMain_ItemClick" runat="server" Width="100%" RenderMode="Classic"    Style="z-index:6" >
+                                       <Items>
+                                    <telerik:RadMenuItem   TabIndex="0" Selected="true"></telerik:RadMenuItem>
+                                     <telerik:RadMenuItem Text="Department"></telerik:RadMenuItem>
+                                     <telerik:RadMenuItem Text="Email Templates" CssClass="additionalColumn"></telerik:RadMenuItem>
+                                     <telerik:RadMenuItem Text="SMS Templates" CssClass="additionalColumn"  ></telerik:RadMenuItem>
+                                    </Items>
+                                    </telerik:RadMenu>
+                                </Content>
+                        </telerik:LayoutRow>
+                      </Rows>
+                     </telerik:radpagelayout>
+                   </Content>
+                </telerik:LayoutRow>
+               </Rows>
+        </telerik:radpagelayout>
+      
+        <telerik:RadPageLayout runat="server" ID="RPLayoutSubMenu"  GridType="Fluid">
+        <Rows> 
+            <telerik:LayoutRow>
+               <Content>
+                
+
+                    <telerik:LayoutColumn Span="0"   SpanXs="12" SpanSm="12" runat="server" >
+                        
+                     
+                        <div class="drawer drawer--left" >
+
+                         
+                          
+
+                            <nav class="drawer-nav" role="navigation" style="background-color:ThreeDFace; height:500px; z-index:10000;">
+                              <ul class="drawer-menu">
+                                <li>
+
+                                       
+                                     <telerik:RadPageLayout ID="RadPageLayout1" runat="server" GridType="Fluid">
+                                      <Rows>
+                                            <telerik:LayoutRow ID="LayoutRow1"   runat="server" style="margin-top:10px;margin-left:2px;margin-right:2px;text-align:center">
+                                                <Columns>
+                                                    <telerik:LayoutColumn   Span="3" HiddenXs="true" SpanSm="3"  >
+                                                    </telerik:LayoutColumn>
+                                                     
+                                                        <telerik:LayoutColumn   Span="6"  SpanXs="12" SpanSm="6"   >
+                                                             <div style="text-align:center">
+                                                                 <img src="images/user.png" style="background-position: 50%;border-radius: 50%;width: 50px;height: 50px;" />
+                                                             </div>  
+                                                        </telerik:LayoutColumn> 
+                                                    <telerik:LayoutColumn   Span="3" HiddenXs="true" SpanSm="3"  >
+                                                    </telerik:LayoutColumn>
+                                                </Columns>
+                                            </telerik:LayoutRow>
+                                      </Rows>
+                                    </telerik:RadPageLayout>
+                                    <telerik:RadPageLayout runat="server" GridType="Fluid">
+                                      <Rows>
+                                            <telerik:LayoutRow   runat="server" style="margin-top:10px;margin-left:2px;margin-right:2px;text-align:center">
+                                                <Columns>
+                                                    <telerik:LayoutColumn   Span="3" HiddenXs="true" SpanSm="3"  >
+                                                    </telerik:LayoutColumn>
+                                                        <telerik:LayoutColumn   Span="6"  SpanXs="12" SpanSm="6" >
+                                                            <telerik:RadLabel ID="lblStdLeadName" runat="server" ></telerik:RadLabel>
+                                                        </telerik:LayoutColumn> 
+                                                    <telerik:LayoutColumn   Span="3" HiddenXs="true" SpanSm="3"  >
+                                                    </telerik:LayoutColumn>
+                                                </Columns>
+                                            </telerik:LayoutRow>
+                                      </Rows>
+                                    </telerik:RadPageLayout>
+                                </li>
+                                <li>
+                                    <telerik:RadButton  ID="RbtnInbox" OnClick="RbtnInbox_Click"   RenderMode="Lightweight" runat="server" Text="Inbox"  Font-Size="13px" Width="87%"  Style="text-align:left;margin-top:4px">
+                                        <Icon PrimaryIconUrl="images/inbox.png" PrimaryIconHeight="20px"  PrimaryIconWidth="25px" ></Icon>
+                                    </telerik:RadButton>
+                                </li>
+                                <li>
+                                    <telerik:RadButton ID="RbtnSentEmail"  OnClick="RbtnSentEmail_Click"    RenderMode="Lightweight" runat="server" Font-Size="13px" Text="Sent mail" Width="87%"  Style="text-align:left;margin-top:4px">
+                                        <Icon PrimaryIconUrl="images/sentemail.png" PrimaryIconHeight="20px" PrimaryIconWidth="25px" ></Icon>
+                                    </telerik:RadButton>
+                                </li>
+                                <li>
+                                    <telerik:RadButton ID="RbtnUnreadEmail" OnClick="RbtnUnreadEmail_Click"    RenderMode="Lightweight" runat="server" Font-Size="13px"  Text="Unread mail" Width="87%"  Style="text-align:left;margin-top:4px">
+                                     <Icon PrimaryIconUrl="images/unread.png" PrimaryIconHeight="20px" PrimaryIconWidth="25px"  ></Icon>
+                                    </telerik:RadButton>
+                                </li>
+                                   <li>
+                                    <telerik:RadButton ID="RbtnRemoveEmail"   OnClick="RbtnRemoveEmail_Click"   RenderMode="Lightweight" Font-Size="13px" runat="server" Text="Deleted mail" Width="87%"  Style="text-align:left;margin-top:4px">
+                                    <Icon PrimaryIconCssClass="rbRemove"></Icon>
+                                    </telerik:RadButton>
+                                </li>
+		                   
+		                           <li>
+                                     <telerik:RadButton ID="RbtnReceiveSMS"  OnClick="RbtnReceiveSMS_Click"  RenderMode="Lightweight" Font-Size="13px"  runat="server" Text='SMS Message' Width="87%"  Style="text-align:left;margin-top:4px" >
+                                       <Icon PrimaryIconUrl="images/RSMS.png" PrimaryIconHeight="20px" PrimaryIconWidth="25px" ></Icon>
+                                     </telerik:RadButton>
+                                        <asp:Label ID="lblSMSCount" Font-Size="14px" Font-Bold="true" ForeColor="Red" runat="server"></asp:Label>
+		                           </li>
+                                  
+                                   <li>
+                                     <telerik:RadButton ID="RbtLogout"  OnClick="RbtLogout_Click"  RenderMode="Lightweight" Font-Size="13px"  runat="server" Text="Logout" Width="87%"  Style="text-align:left;margin-top:4px" >
+                                       <Icon PrimaryIconUrl="images/exit.png" PrimaryIconHeight="20px" PrimaryIconWidth="25px" ></Icon>
+                                     </telerik:RadButton>
+		                           </li>
+      
+                              </ul>
+                            </nav>
+                         
+                        </div>
+                          <button type="button"    class="drawer-toggle letmenu " >
+                           <span>|||</span>
+                              
+                            </button>
+                        
+                   
+                    <telerik:RadButton ID="RbtnFetchEmail" OnClick="RbtnFetchEmail_Click"  CssClass="inboxbtn"    RenderMode="Lightweight" runat="server"   Text="Check Email" >
+                       <Icon PrimaryIconCssClass="rbDownload"></Icon>
+                    </telerik:RadButton>
+
+                        <telerik:RadButton runat="server" ID="RbtnComposeEmail" OnClick="RbtnComposeEmail_Click"  Text="Write Email"
+                          ButtonType="SkinnedButton">
+                        <Icon PrimaryIconCssClass="rbEdit"></Icon>
+                    </telerik:RadButton>
+
+                        <telerik:RadButton runat="server" ID="RbtnComposeSMS" Text="Write SMS"   Checked="true"  OnClick="RbtnComposeSMS_Click" 
+                             ButtonType="SkinnedButton">
+                            <Icon PrimaryIconCssClass="rbEdit" ></Icon>
+                        </telerik:RadButton>
+                      
+                   </telerik:LayoutColumn>
+                 
+
+                   
+                       
+               </Content>
+            </telerik:LayoutRow>
+        </Rows>
+    </telerik:RadPageLayout>
+    
+    </asp:Panel>  
+        <telerik:RadPageLayout runat="server" ID="RPLayoutDetailContant"  GridType="Fluid">
+            <Rows>
+                <telerik:LayoutRow>
+                    <Columns>
+                       <telerik:LayoutColumn Span="12" runat="server"  SpanXs="12" SpanSm="12" style="margin-top:5px; min-height:350px;">
+                             <asp:ContentPlaceHolder ID="CPHDetail" runat="server" >
+                             
+                              </asp:ContentPlaceHolder>
+                       </telerik:LayoutColumn>
+                    </Columns>
+                 </telerik:LayoutRow>
+            </Rows>
+        </telerik:RadPageLayout>
+       
+        <telerik:RadPageLayout ID="RPLayoutFooter" runat="server"  GridType="Fluid">
+            <telerik:LayoutRow>
+                <Content>
+                    <div class="footer">|| Powered by Diamond SIS, Inc. ©2016 ||</div>
+                </Content>
+            </telerik:LayoutRow>
+        </telerik:RadPageLayout>
+
+
+      
+
+
+      <telerik:RadScriptBlock ID="RadScriptBlock1" runat="server">
+        <script type="text/javascript">
+            function UpdateItemCountField(sender, args) {
+                //Set the footer text.
+                sender.get_dropDownElement().lastChild.innerHTML = "A total of " + sender.get_items().get_count() + " items";
+            }
+       
+    
+ 
+            
+        </script>
+    </telerik:RadScriptBlock>
+
+
+
+    </form>
+</body>
+</html>

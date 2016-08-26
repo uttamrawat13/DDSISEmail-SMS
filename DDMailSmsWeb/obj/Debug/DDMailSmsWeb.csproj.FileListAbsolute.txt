@@ -1,0 +1,194 @@
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.Spreadsheet.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.UI.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.UI.Skins.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Core.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Fixed.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.Extensions.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Newtonsoft.Json.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.Spreadsheet.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.UI.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Core.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Fixed.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.Extensions.xml
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Users\microware\Desktop\DD\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache
+F:\Projects\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.dll.config
+F:\Projects\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+F:\Projects\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+F:\Projects\DDMailSms\DDMailSmsWeb\bin\Newtonsoft.Json.dll
+F:\Projects\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+F:\Projects\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+F:\Projects\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\OpenPop.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.Spreadsheet.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.UI.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.UI.Skins.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Core.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Fixed.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.Extensions.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Newtonsoft.Json.dll
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.Spreadsheet.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.UI.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Core.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Fixed.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.xml
+C:\Users\microware\Desktop\DDMain\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.Extensions.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\OpenPop.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.Spreadsheet.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.UI.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.UI.Skins.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Core.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Fixed.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.Extensions.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Newtonsoft.Json.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.Spreadsheet.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Web.UI.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Core.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Fixed.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Telerik.Windows.Zip.Extensions.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\RestSharp.dll
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.pdb
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.xml
+C:\Users\microware\Desktop\Uttam\DDMailSms\DDMailSmsWeb\bin\RestSharp.xml
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\bin\RestSharp.dll
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\bin\Twilio.Api.pdb
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\bin\Twilio.Api.xml
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\bin\RestSharp.xml
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Projects\Uttam\DDMailSms 31 0 2016 change logo\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\bin\Twilio.Api.dll
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\bin\RestSharp.dll
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\bin\Twilio.Api.pdb
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\bin\Twilio.Api.xml
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\bin\RestSharp.xml
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms 2 june  2016 error page\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache
+F:\Projects\DDMailSms\DDMailSmsWeb\bin\RestSharp.dll
+F:\Projects\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.pdb
+F:\Projects\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.xml
+F:\Projects\DDMailSms\DDMailSmsWeb\bin\RestSharp.xml
+F:\Projects\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache
+E:\DD\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+E:\DD\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+E:\DD\DDMailSms\DDMailSmsWeb\bin\Newtonsoft.Json.dll
+E:\DD\DDMailSms\DDMailSmsWeb\bin\RestSharp.dll
+E:\DD\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.pdb
+E:\DD\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.xml
+E:\DD\DDMailSms\DDMailSmsWeb\bin\RestSharp.xml
+E:\DD\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache
+E:\DD\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+E:\DD\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+E:\DD\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\bin\Twilio.Api.dll
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\bin\RestSharp.dll
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\bin\Twilio.Api.pdb
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\bin\Twilio.Api.xml
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\bin\RestSharp.xml
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms - Copy\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\bin\RestSharp.dll
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\bin\Twilio.Api.pdb
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\bin\Twilio.Api.xml
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\bin\RestSharp.xml
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Projects\DDMailSms  6 july final\DDMailSms  6 july final\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\bin\Twilio.Api.dll
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\bin\RestSharp.dll
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\bin\Twilio.Api.pdb
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\bin\Twilio.Api.xml
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\bin\RestSharp.xml
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Projects\DDMailSms  6 july final\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms Main\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Projects\DDMailSms Main\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms Main\DDMailSmsWeb\bin\Twilio.Api.dll
+C:\Projects\DDMailSms Main\DDMailSmsWeb\bin\Newtonsoft.Json.dll
+C:\Projects\DDMailSms Main\DDMailSmsWeb\bin\RestSharp.dll
+C:\Projects\DDMailSms Main\DDMailSmsWeb\bin\Twilio.Api.pdb
+C:\Projects\DDMailSms Main\DDMailSmsWeb\bin\Twilio.Api.xml
+C:\Projects\DDMailSms Main\DDMailSmsWeb\bin\RestSharp.xml
+C:\Projects\DDMailSms Main\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache
+C:\Projects\DDMailSms Main\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Projects\DDMailSms Main\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Projects\DDMailSms Main\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll.licenses
+C:\Projects\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.dll
+C:\Projects\DDMailSms\DDMailSmsWeb\bin\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.dll
+C:\Projects\DDMailSms\DDMailSmsWeb\bin\RestSharp.dll
+C:\Projects\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.pdb
+C:\Projects\DDMailSms\DDMailSmsWeb\bin\Twilio.Api.xml
+C:\Projects\DDMailSms\DDMailSmsWeb\bin\RestSharp.xml
+C:\Projects\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.dll
+C:\Projects\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.pdb
+C:\Projects\DDMailSms\DDMailSmsWeb\obj\Debug\DDMailSmsWeb.csprojResolveAssemblyReference.cache

@@ -1,0 +1,370 @@
+﻿ body {
+            margin: 0;
+            padding: 0;
+            padding-top: 0px;
+            background-color:white !important;
+            font: 12px/normal "Segoe UI", sans-serif;
+            
+        }
+       
+
+        .col {
+            background-color: #e11616;
+            border: 1px solid #cccccc;
+            text-align: center;
+            border-radius: 3px;
+        }
+
+
+        .header
+        {
+           
+            text-align: center;
+            border-radius: 3px;
+            color:white;
+            height: 40px;
+            
+            
+         
+        }
+        .leftHeader
+        {
+            float:right;
+            font-size: 13px;
+            padding-top: 0px;
+        }
+        .footer
+        {
+             background-color:#0094ff;
+            border: 1px solid #cccccc;
+            text-align: center;
+            border-radius: 3px;
+
+        }
+
+
+    
+
+         .footer {
+            height: 25px;
+            text-align:left;
+            background-color:#dbdfe4;
+            color:black;
+        }
+
+
+        .col {
+            margin: 2px 0;
+            padding: 0px 0px;
+            height: 300px;
+        }
+        .t-col
+        {
+            padding-left:0px !important;
+            padding-right:0px !important;
+
+        }
+
+        
+
+         .grid {
+            margin: 0px 0;
+            padding: 0px 0px;
+            height: 250px;
+             background-color:dimgray;
+            border: 1px solid #cccccc;
+            text-align: center;
+            border-radius: 3px;
+        }
+
+        .lDiv {
+            margin: 10px 0;
+            padding: 0px 0px;
+            height: 20px;
+            padding-bottom:20px;
+        }
+
+    
+     /*TAB BUTTON USE STUDENT OR LEAD LEFT SIDE*/
+      .leftgroupstdleadtabBTN
+        {
+            width: 100%;
+            text-align: left;
+        }
+
+        .mobileGridItem
+        {
+            display:none;
+        }
+        .nav
+        {
+            margin-top:111px;
+            margin-left:25px;
+        }
+        .inboxbtn
+        {
+            margin-left:0px
+        }
+       .letmenu {
+    background-color: #fff;
+    border: 0 none;
+    font-size: 15px;
+    height: auto;
+    padding: 2px 0;
+    width: 35px;
+}
+       .applybtn
+    {
+       min-width:40px;margin-left: 1.2pt;
+    }
+.modelwidth
+{
+    min-width:1000px;
+}
+  /**Compose SMS Department Search multicombox*/
+  /**Start*/
+   .SMScol1 {
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 250px;
+    float: left;
+}
+.SMScol2 {
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 100px;
+    line-height: 14px;
+    float: left;
+    height: 100%;
+ }
+.SMScol3 {
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 100px;
+    line-height: 14px;
+    float: left;
+}
+  /**End*/
+  /**Compose EMail Department Search multicombox*/
+  /**Start*/
+ 
+.dpemailcol1 {
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 190px;
+    line-height: 14px;
+    float: left;
+    height: 100%;
+ }
+.dpemailcol2 {
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 110px;
+    line-height: 14px;
+    float: left;
+}
+.dpemailcol3 {
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 155px;
+    line-height: 14px;
+    float: left;
+}
+
+  /**End*/
+     /*Desktop*/   
+        @media screen and (max-width: 1000px)
+        {
+            body {
+                background-color: white;
+            }
+            #bigscreen{
+                width:100%;
+            }
+            .leftgroupstdleadtabBTN
+            {
+            width: 100%;
+            text-align: left;
+            }
+            .disktopmenuItem
+            { 
+            }
+            .mobilemenuItem
+            {
+                
+            }
+            .nav
+            {
+                margin-top:106px;
+                margin-left:-10px;
+            }
+            
+               
+        }
+
+       /*Tabltes*/
+        @media screen and (max-width: 768px) {
+            body {
+                background-color: white;
+            }
+             
+             .leftgroupstdleadtabBTN
+            {
+                width: 100%;
+                text-align: left;
+            }
+            .disktopmenuItem
+            { 
+            }
+            .mobilemenuItem
+            {
+            }
+            .nav
+            {
+                margin-top:106px;
+                margin-left:-10px;
+            }
+.modelwidth
+{
+    min-width:600px;
+}            
+        }
+
+        /*Mobile*/  
+
+@media screen and (max-width: 360px) {
+    body {
+        background-color: white;
+        font: 10px/normal "Segoe UI", sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+        .leftHeader
+        {
+            font-size: 14px;
+            margin-top: -55px;
+            float: left;
+         }
+
+
+    #bigscreen {
+        width: 100%;
+    }
+
+    .additionalColumn {
+         display: none !important;
+    }
+
+    .additionalColumnMb {
+        display: none !important;
+    }
+
+    .leftgroupstdleadtabBTN {
+        width: 100%;
+        text-align: left;
+    }
+
+    .disktopmenuItem {
+        display: none !important;
+    }
+
+    .mobilemenuItem {
+        display: list-item !important;
+    }
+    .desktopgridItem
+    {
+        display:none;
+    }
+    .mobileGridItem
+        {
+            display:block;
+        }
+      .nav
+            {
+                 margin-top:0px;
+                margin-left:0px;
+            }
+
+    .drawer-hamburger {
+        position:relative !important;
+        padding:0px  !important;
+        top:14px  !important;
+    }
+    .rgFilterRow
+    {
+        display:none !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .modelwidth
+{
+    min-width:320px;
+}            
+  /**Compose SMS Department Search multicombox*/
+  /**Start*/
+      .SMScol1 {
+    margin-left: 0;
+    padding: 0 5px 0 0;
+    width: 100px;
+    float: left;
+}
+.SMScol2 {
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 70px;
+    line-height: 14px;
+    float: left;
+    height: 100%;
+}
+.SMScol3 {
+    margin: 0;
+    padding: 0 5px 0 0;
+    width: 38px;
+    line-height: 14px;
+    float: left;
+}
+  /**End*/
+
+  /**Compose EMail Department Search multicombox*/
+  /**Start*/
+ 
+        .dpemailcol1 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 76px;
+            line-height: 14px;
+            float: left;
+            height: 100%;
+         }
+        .dpemailcol2 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 42px;
+             line-height: 14px;
+            float: left;
+        }
+        .dpemailcol3 {
+            margin: 0;
+            padding: 0 5px 0 0;
+           width:102px;
+              line-height: 14px;
+            float: left;
+        }
+     
+  /**End*/
+
+  .ModalPopupBG
+    {
+        background-color: Black;
+        filter: alpha(opacity=60);
+        opacity: 0.6;
+    }
+
+  .RadMenu_Office2010Silver a.rmLink {
+   
+    font: 12px/28px "Segoe UI",Arial,sans-serif !important;
+    
+}
+}
+
+

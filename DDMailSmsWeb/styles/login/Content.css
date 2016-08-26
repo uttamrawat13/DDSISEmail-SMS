@@ -1,0 +1,52 @@
+﻿
+.MyLabel {
+    display: block;
+    width: 150px;
+    margin-top: 4px;
+}
+ 
+html body form .RadInput .MyEmptyTextBox,
+html body form .RadInput .MyEnabledTextBox,
+html body form .RadInput .MyHoveredTextBox,
+html body form .RadInput .MyFocusedTextBox,
+html body form .RadInput .MyInvalidTextBox,
+html body form .RadInput .MyNegativeTextBox {
+    border-width: 2px;
+    border-color: #a9c9a9;
+    font: 14px/18px arial,sans-serif;
+}
+ 
+html body .RadInput .MyEmptyTextBox {
+    color: #999;
+}
+ 
+html body form .RadInput .MyEnabledTextBox {
+}
+ 
+html body form .RadInput .MyHoveredTextBox {
+    border-color: #6c6;
+    background: #efe;
+}
+ 
+html body form .RadInput .MyFocusedTextBox {
+    border-color: #3a3;
+    background: #efe;
+}
+ 
+html body form .RadInput .MyInvalidTextBox {
+    border-color: #f33;
+    background: none #ff9;
+}
+ 
+html body form .RadInput .MyNegativeTextBox {
+    color: #930;
+    font-weight: bold;
+}
+ 
+#example .RadInput .riLabel {
+    color: #555;
+}
+ 
+#example .RadInput .riTextBox {
+    color: #555;
+}
